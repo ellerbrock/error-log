@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "log error message in red color to console",
   "author": "Maik Ellerbrock",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "repository": {
     "url": "git@github.com:ellerbrock/error-log.git",
