@@ -1,6 +1,6 @@
 {
   "name": "error-log",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "log error message in red color to console",
   "author": "Maik Ellerbrock",
   "main": "src/index.js",
@@ -37,7 +37,7 @@
     "premonitor": "npm run clean:dist && npm run build",
     "monitor": "nodejs-dashboard node dist",
     "prerelease": "npm run update-dependencies && npm run setenv:prod && npm run clean && npm run build && npm run lint && npm run test && npm run coverage",
-    "release": "standard-version",
+    "release": "standard-version --no-verify",
     "postrelease": "greenkeeper-postpublish && npm run setenv:dev",
     "security:test": "snyk test",
     "security:wizard": "snyk wizard",
