@@ -5,6 +5,7 @@
 ### Bug Fixes
 
 * **babel:** change preset to es2015 for older node versions ([d7680c3](https://github.com/ellerbrock/error-log/commit/d7680c3))
+* **babel:** set preset es2015 for older node versions ([c96ba55](https://github.com/ellerbrock/error-log/commit/c96ba55))
 
 
 
