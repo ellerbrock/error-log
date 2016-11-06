@@ -24,7 +24,6 @@
     "clean:coverage": "shx rm -rf coverage",
     "clean:dist": "shx rm -rf dist",
     "clean:reports": "shx rm -rf reports",
-    "clean:npm": "npm cache clean && shx rm -rf node_modules",
     "precoverage": "npm run clean:coverage",
     "coverage": "cross-env NODE_ENV=test babel-istanbul cover src/*.js _mocha --report lcovonly -- -R spec",
     "todo:postcoverage": "cross-env NODE_ENV=test babel-istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
@@ -129,5 +128,8 @@
     "standard-changelog": "0.0.1",
     "standard-version": "^3.0.0",
     "travis-lint": "1.0.0"
+  },
+  "dependencies": {
+    "colors": "1.1.2"
   }
 }
