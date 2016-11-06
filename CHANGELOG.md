@@ -1,21 +1,10 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 <a name="0.0.3"></a>
-## [0.0.3](https://github.com/ellerbrock/error-log/compare/v0.0.2...v0.0.3) (2016-11-06)
+## [0.0.3](https://github.com/ellerbrock/error-log/compare/v0.0.3...v0.0.3) (2016-11-06)
 
 
 ### Bug Fixes
 
-* **badges:** fix travis link ([bdb2edd](https://github.com/ellerbrock/error-log/commit/bdb2edd))
+* **babel:** change preset to es2015 for older node versions ([d7680c3](https://github.com/ellerbrock/error-log/commit/d7680c3))
 
 
 
-<a name="0.0.2"></a>
-## [0.0.2](https://github.com/ellerbrock/error-log/compare/v0.0.2...v0.0.2) (2016-11-06)
-
-
-### Bug Fixes
-
-* **badges:** fix travis link ([bdb2edd](https://github.com/ellerbrock/error-log/commit/bdb2edd))
