@@ -12,6 +12,11 @@
   "bugs": {
     "url": "https://github.com/ellerbrock/error-log/issues"
   },
+  "keywords": [
+    "error",
+    "error-log",
+    "error-message"
+  ],
   "scripts": {
     "prebuild": "npm run clean:dist",
     "build": "cross-env NODE_ENV=production babel src -d dist",
@@ -52,7 +57,8 @@
     "pretest": "npm run clean:coverage && npm run clean:reports",
     "test": "cross-env NODE_ENV=test mocha -c -S -R spec --compilers js:babel-register --check-leaks",
     "posttest": "cross-env NODE_ENV=test mocha -S -R mochawesome --compilers js:babel-register --reporter-options reportDir=reports --check-leaks",
-    "test:watch": "cross-env NODE_ENV=test npm test -- -w"
+    "test:watch": "cross-env NODE_ENV=test npm test -- -w",
+    "online": "git push --follow-tags origin master; npm publish"
   },
   "files": [
     "dist"

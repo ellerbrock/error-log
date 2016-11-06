@@ -1,12 +1,10 @@
 import chai from 'chai'
 import sinon from 'sinon'
 import sinonChai from 'sinon-chai'
+import errorLog from '../src/index'
 
 const expect = chai.expect
-
 chai.use(sinonChai);
-
-import errorLog from '../src/index'
 
 describe('Test for npm module error-log', function () {
 
