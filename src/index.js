@@ -2,7 +2,9 @@
 
 import 'colors'
 
-export default function errorLog (msg) {
-  const errMsg = msg || 'something went wrong ...'
-  console.log(`Error: ${errMsg}`.bold.red)
+export default errorLog
+
+function errorLog (msg) {
+  msg = msg || 'something went wrong ...'
+  console.log(`❌  Error: ${msg}`.bold.red)
 }
