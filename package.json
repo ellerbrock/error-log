@@ -1,6 +1,6 @@
 {
   "name": "error-log",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "log error message in red color to console",
   "author": "Maik Ellerbrock",
   "main": "dist/index.js",

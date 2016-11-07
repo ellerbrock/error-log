@@ -12,7 +12,7 @@ describe('Test for npm module error-log', function () {
     expect(errorLog).to.be.a('function')
   })
 
-  it('errorLog should be a function', function () {
+  it('errorLog should be called with given value', function () {
     const spy = sinon.spy(errorLog)
     spy('my error message ...')
 
