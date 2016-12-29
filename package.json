@@ -116,7 +116,7 @@
     "markdown-link-check": "2.2",
     "markdownlint": "0.3.0",
     "mocha": "^3.1.2",
-    "mochawesome": "^1.5.3",
+    "mochawesome": "^2.0.0",
     "nodejs-dashboard": "^0.1.2",
     "nodemon": "^1.11.0",
     "npm-check-updates": "2.8.6",
