@@ -124,7 +124,7 @@
     "shx": "^0.1.4",
     "sinon": "2.0.0-pre.4",
     "sinon-chai": "2.8.0",
-    "snyk": "^1.19.1",
+    "snyk": "^1.24.1",
     "standard-changelog": "0.0.1",
     "standard-version": "^3.0.0",
     "travis-lint": "1.0.0"
