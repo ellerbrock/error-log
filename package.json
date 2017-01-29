@@ -113,7 +113,7 @@
     "eslint-plugin-promise": "3.3.1",
     "eslint-plugin-standard": "2.0.1",
     "greenkeeper-postpublish": "1.0.1",
-    "markdown-link-check": "2.2",
+    "markdown-link-check": "~3.0.0",
     "markdownlint": "0.3.0",
     "mocha": "^3.1.2",
     "mochawesome": "^2.0.0",
