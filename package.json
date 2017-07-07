@@ -105,7 +105,7 @@
     "codecov": "2.2.0",
     "commitizen": "2.9.5",
     "conventional-changelog-angular-emoji": "0.2.2",
-    "conventional-changelog-lint": "1.1.1",
+    "conventional-changelog-lint": "2.1.0",
     "cross-env": "3.1.4",
     "cz-conventional-changelog-emoji": "0.1.0",
     "eslint": "^3.9.1",
