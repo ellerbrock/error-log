@@ -125,7 +125,7 @@
     "sinon": "2.0.0-pre.6",
     "sinon-chai": "2.11.0",
     "snyk": "^1.19.1",
-    "standard-changelog": "1.0.0",
+    "standard-changelog": "1.0.2",
     "standard-version": "^3.0.0",
     "travis-lint": "1.0.0"
   },
