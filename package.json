@@ -117,7 +117,7 @@
     "markdownlint": "0.6.1",
     "mocha": "^4.0.0",
     "mochawesome": "^2.0.0",
-    "nodejs-dashboard": "^0.1.2",
+    "nodejs-dashboard": "^0.4.3",
     "nodemon": "^1.11.0",
     "npm-check-updates": "2.13.0",
     "ntl": "1.1.3",
