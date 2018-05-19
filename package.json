@@ -115,7 +115,7 @@
     "greenkeeper-postpublish": "1.1.0",
     "markdown-link-check": "~3.0.0",
     "markdownlint": "0.6.1",
-    "mocha": "^5.0.0",
+    "mocha": "^5.2.0",
     "mochawesome": "^3.0.0",
     "nodejs-dashboard": "^0.1.2",
     "nodemon": "^1.11.0",
